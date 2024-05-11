@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+html{
+    background-color: #D0324B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px 15px 30px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+}
+.barra{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 30px;
+}
+.barra img{
+    width: 500px; 
+}
+.contenedor{
+    display: block;
+    flex-direction: row;
+}
+.contenedor1{
+    flex-direction: column;
+}
+.form{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+.input_group1{
+    position: relative;
+}
+input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #C45118;
+}
+.placeholder{
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    left: 8px; 
+    width: 300px;
+    height: 130px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+input:focus + .placeholder{
+    top: -10px;
+    color: #C45118;
+}
+img{
+    width: 100px;
+}
+.ilustración {
+    width: 50%;
+}

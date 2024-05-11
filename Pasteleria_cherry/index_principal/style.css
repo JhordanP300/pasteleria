@@ -1,0 +1,214 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #d0324b;
+    padding: auto;
+    text-align: center;
+}
+.menu a {
+    color: rgb(225, 192, 192);
+    text-decoration: none;
+    margin: 77px;
+    font-size: 29px;
+    position: relative;
+}
+.menu-icon {
+    vertical-align: middle;
+    width: 127px;
+    height: auto;
+}
+.imgT img {
+    position: relative;
+    width: 720px;
+    height: 523px;
+}
+.imgT.adjusted {
+    transform: translateX(800px);
+}
+.parrafo1 {
+    position: relative;
+    font-size: 47px;
+    color: rgba(220, 172, 172, 0.7);
+    top: -467px;
+    width: 391px;
+    margin-left: 250px;
+}
+.parrafo1.adjusted {
+    transform: translateX(800px);
+}
+.boton2 {
+    display: block;
+    background-color: #c56f7d;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 9px;
+    padding:14px;
+    margin: 506px;
+    text-decoration: none;
+    margin-top: -392px;
+    width: 183px;
+    height: auto;
+    margin-left: 313px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 4px 8px rgb(209, 46, 46);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.boton2:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 8px 16px rgb(89, 59, 59); 
+}
+.parrafo3 {
+    position: relative;
+    font-size: 30px;
+    color: rgba(240, 0, 0, 0.7);
+    width: 431px;
+    margin-left: 532px; 
+    top: -418px; 
+    text-align: center;
+}
+.parrafo4 {
+    background-color: #2DBBA4;
+    padding: 97px; 
+    color: rgb(252, 249, 249);
+    margin: -53px;
+    overflow: hidden;
+    margin-top: -483px;
+    width: 1471px;
+}
+.parrafo4 img {
+    width: 80px; 
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+.img2 img {
+    position: relative;
+    width: 357px;
+    height: 223px;
+    left: -741px;
+    margin-top: -182px; 
+}
+.img2.adjusted {
+    transform: translateX(800px);
+}
+.parrafo4 p{
+    position: relative;
+    font-size: 22px;
+    color: #ffffff; 
+    text-align: center;
+    margin-top: 12px; 
+    margin-bottom: 14px;
+    margin-left: -122px;
+    
+}
+.flecha {
+    position: relative;
+}
+.flecha img {
+    position: absolute;
+    width: 70px;
+    height: 81px;
+    left: 69%;  
+    margin-top: -156px; 
+}
+.boton1 {
+    display: block;
+    background-color: #c56f7d;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 9px;
+    padding:17px;
+    margin: 447px;
+    text-decoration: none;
+    margin-top: -140px;
+    width: 38px;
+    height: auto;
+    margin-left: 1150px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgb(209, 46, 46);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.boton1:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 8px 16px rgb(89, 59, 59); 
+}
+.parrafo5:hover {
+    background-color: #df2d2d; 
+    font-size: 40px; 
+    height: 51px;
+}
+.iconos-fwi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: calc(77px - 208px); 
+    left: 11px;
+}
+.iconos-fwi img {
+    width: 52px;
+    height: auto;
+    margin-bottom: -590px;
+    transition: transform 0.3s ease;
+    margin-top: 600px;
+    transition: transform 0.3s ease;
+}
+.iconos-fwi img:hover {
+    transform: scale(1.1); 
+}
+@keyframes moveText {
+    from {
+        left: 320;
+    }
+    to {
+        left: 304px;
+    }
+}
+.parrafoA {
+    background-color: #d91313;
+    padding: 97px; 
+    color: rgb(252, 249, 249);
+    margin: -53px;
+    overflow: hidden;
+    margin-top: -357px;
+    width: 1471px;
+    text-align: center;
+    font-size: 45px;
+}
+.imgA img {
+    position: relative;
+    width: 143px;
+    height: auto;
+    left: -2px;
+    margin-top: -130px; 
+    font-size: 25px;
+}
+.imgB img {
+    position: relative;
+    width: 173px;
+    height: auto;
+    left: 1347px;
+    margin-top: -180px; 
+}
+@media only screen and (max-width: 768px) {
+    .clase-elemento {
+    font-size: 14px;
+    padding: 10px;
+}
+}
+@media only screen and (min-width: 768px) {
+.clase-elemento {
+    font-size: 18px;
+    padding: 20px;
+}
+}
+.otra-clase {
+    display: inline-block;
+}
